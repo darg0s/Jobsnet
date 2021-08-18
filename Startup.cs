@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using projeto_gama_jobsnet.Servicos;
 
 namespace projeto_gama_jobsnet
 {
@@ -26,7 +28,8 @@ namespace projeto_gama_jobsnet
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            var connectionString= Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<DbContexto>(options=>options.UseSqlServer(connectionString)); 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
