@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "dtVDs6wMQPjP4PkF+00g/7Ptf0atkbsL1+79MlVhYdeO+pjaDl+K0T1vRrLZlEhHR07y1kj25eYzh7eF8t5+Zw==",
+  "dgSpecHash": "kF1h5ww44wgBQ3fb6yNSAbuojftS5sbHI8sjPCbgCG48RAABtLbLmKIQEHn5MLOUiRmdxRWP+egWFEabOjXY9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\dioge\\Desktop\\repositorio\\projeto_gama_jobsnet\\projeto_gama_jobsnet.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dioge\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\dioge\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dioge\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\dioge\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\dioge\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\dioge\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
   "logs": []
 }
