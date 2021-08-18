@@ -17,7 +17,7 @@ namespace projeto_gama_jobsnet.Models
     [Column("vaga", TypeName = "varchar")]
     [MaxLength(40)]
     [Required(ErrorMessage="O nome da vaga é obrigatório")]
-     public string nomeVaga { get;set; }
+     public string NomeVaga { get;set; }
     
     
     [Column("descricao_vaga", TypeName = "text")]

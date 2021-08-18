@@ -8,7 +8,7 @@ namespace projeto_gama_jobsnet.Servicos
 
     public DbContexto(DbContextOptions<DbContexto> options) : base(options) { }
 
-    public DbSet<Vaga> Profissoes { get; set; }
+    public DbSet<Vaga> Vagas { get; set; }
     public DbSet<Candidato> Candidatos{get; set;}
   }
 }

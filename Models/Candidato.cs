@@ -36,7 +36,7 @@ namespace projeto_gama_jobsnet.Models
    
     [Column("data_nascimento", TypeName = "date")]
     [Required(ErrorMessage="A Data de nascimento é obrigatório")]
-    public DateTime  dataNascimento{get; set;}
+    public DateTime  DataNascimento{get; set;}
 
 
    
