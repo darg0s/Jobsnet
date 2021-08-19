@@ -45,3 +45,4 @@ dotnet aspnet-codegenerator controller -name VagasController -m Vaga -dc DbConte
 dotnet aspnet-codegenerator controller -name CandidatosController -m Candidato -dc DbContexto --relativeFolderPath Controllers
 
 ```
+#
